@@ -8,10 +8,33 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+      <style>
+        h1{color:white; background-color: blue;}
+        footer{color:white; background-color: green;}
+        main{color: black; background-color: antiquewhite;}
+
+        body{font-weight:400}
+        strong{font-weight:600}
+
+      </style>  
 </head>
 
+
 <body>
+    <header><h1><strong>Old Fashioned Typesetting</strong> compared to <strong>Desktop Publishing</strong>, <strong>html</strong>, <strong>css</strong>. What is the difference?</h1></header>
+    <main>
+        <section id="1"><h2>Desktop Publishing
+        </h2>
+    <p>Desktop publishing is much faster than old fashioned typewriting as it is easier due to keyboards and screens with visual aids and brightness. </p></section>
+        <section id="2"><h2>html</h2>
+        <p>Html is even more different as it allows you to alter more aspects of the said page and it is online concerning webpages not real paper.</p></section>
+        <section id="3"><h2>css</h2>
+        <p>Css is the furthest from it as it is a coding language and someone used to old fashioned typewriting would not understand it, it is also for back end editing not real paper.</p></section>
+        <footer>In conclusion, all these newer methods are vastly different from <strong>old fashioned typesetting</strong>, one could say they iteratively built upon it but it is still a very marked and
+            major difference.
+        </footer>
+    </main>
+
 </body>
 
 </html>
